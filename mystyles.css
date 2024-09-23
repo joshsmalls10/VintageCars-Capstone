@@ -1,0 +1,61 @@
+/* global styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("../img/95Prsche.jpg");
+    background-size: cover; /* Stretch the background image to cover the whole page */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    color: #333; /* Default text color */
+}
+
+/* utility styles */
+h1, h2, h3 {
+    text-align: center; /* Center all headings */
+}
+
+a {
+    color: white; /* Link color */
+    text-decoration: none;
+    padding: 10px 15px; /* Add padding for clickable area */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+a:hover {
+    background-color: rgba(255, 255, 255, 0.5); /* Light background on hover */
+}
+
+/* header styles */
+header {
+    text-align: center; /* Center all content in the header */
+    background-color: rgba(0, 0, 0, 0.7); /* Dark semi-transparent background for contrast */
+    padding: 20px; /* Space around header content */
+    color: rgb(255, 255, 255); /* Header text color */
+}
+
+nav {
+    margin: 20px 0; /* Margin around navigation */
+}
+
+nav a {
+    margin: 0 10px; /* Spacing between navigation links */
+    font-weight: bold; /* Make nav links bold */
+}
+
+/* main styles */
+main {
+    padding: 20px; /* Space around main content */
+}
+
+div {
+    margin: 20px auto; /* Center the div with margin */
+    max-width: 600px; /* Limit max width for better readability */
+    background-color: rgba(255, 255, 255, 0.9); /* Light background for content */
+    border-radius: 10px; /* Rounded corners */
+    padding: 15px; /* Inner space */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
